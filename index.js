@@ -72,3 +72,17 @@ function buttonAnimate(currentClassofCase) {
     activeBtn.classList.remove("pressed")
   }, 100);
 }
+
+
+// let newEl = document.createElement("div");
+
+// newEl.innerHTML = "this is a newly created div";
+
+// h1.prepend(newEl)
+
+
+// let div = document.createElement("div");
+// let p = document.createElement("p");
+// let span = document.createElement("span");
+// div.append(p);
+// div.prepend(span);
