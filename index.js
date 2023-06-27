@@ -4,9 +4,11 @@ let noOfDrums = document.querySelectorAll(".drum").length;
 
 for(let i=0; i<noOfDrums; i++ ){
     
-    document.querySelectorAll(".drum")[i].addEventListener("click", () => {
-      var audio = new Audio('sounds/tom-1.mp3');
-      audio.play();
+    document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+      console.log(this.innerHTML, "hey")
+      this.style.color = "yellow";
+      // var audio = new Audio('sounds/tom-1.mp3');
+      // audio.play();
     })
 
 }
