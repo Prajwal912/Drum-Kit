@@ -86,3 +86,34 @@ function buttonAnimate(currentClassofCase) {
 // let span = document.createElement("span");
 // div.append(p);
 // div.prepend(span);
+
+
+//insert an ele by many ways
+
+//first one is just using innerHTML
+
+// document.getElementById("foot").innerHTML = "<p> hey this is a added footer</p>"
+
+//insertion method
+// let aa = document.getElementById("foot")
+
+
+//  let sec = document.createElement("section");
+//  sec.innerHTML = "<p> hey this is a added p inside section</p>" 
+
+// aa.after(sec)
+// aa.before(sec)
+// aa.append(sec) //inside ele but after the first content
+// aa.prepend(sec) //inside ele but before the first content 
+
+let html = `
+<p>first para</p>
+<p>second para</p>
+<p>third para</p>
+<p>fourth para</p>
+`
+
+// aa.insertAdjacentHTML("beforeend", html)
+// aa.insertAdjacentHTML("afterend", html)
+// aa.insertAdjacentHTML("beforebegin", html)
+// aa.insertAdjacentHTML("afterbegin", html)
