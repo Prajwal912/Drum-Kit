@@ -79,3 +79,14 @@ background-image: url("images/crash.png");
   margin: 10px;
   background-color: white;
 }
+
+
+.yellow{
+  background-color: yellowgreen;
+  color: white;
+}
+
+.red{
+  background-color: red;
+  color: white;
+}

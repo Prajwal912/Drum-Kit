@@ -106,14 +106,37 @@ function buttonAnimate(currentClassofCase) {
 // aa.append(sec) //inside ele but after the first content
 // aa.prepend(sec) //inside ele but before the first content 
 
-let html = `
-<p>first para</p>
-<p>second para</p>
-<p>third para</p>
-<p>fourth para</p>
-`
+// let html = `
+// <p>first para</p>
+// <p>second para</p>
+// <p>third para</p>
+// <p>fourth para</p>
+// `
 
 // aa.insertAdjacentHTML("beforeend", html)
 // aa.insertAdjacentHTML("afterend", html)
 // aa.insertAdjacentHTML("beforebegin", html)
 // aa.insertAdjacentHTML("afterbegin", html)
+
+// let divs = document.getElementById("divs");
+
+// let newEl = document.createElement("p");
+// newEl.innerHTML = "this is a new para for checking";
+
+// divs.prepend(newEl)
+
+
+
+//className is for chnging the class for styling
+// let newClass = document.querySelector(".class-p");
+// newClass.className = "yellow"
+// newClass.classList.remove("yellow")
+// newClass.classList.add("red")
+// newClass.classList.toggle("red")
+
+
+
+
+
+
+
